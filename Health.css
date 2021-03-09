@@ -1,0 +1,18 @@
+td, th{
+    font-size: larger;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+tr a{
+    color: black;
+    text-decoration: inherit;
+}
